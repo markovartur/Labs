@@ -1,0 +1,8 @@
+b=1.52;
+a=-2.4;
+x=0.29;
+k=3;
+t=pow2(log(x)+pow2(a,2),1/3)/0.47*pow2(x,2);
+z=abs(0.47*pow2(x,2)-pow2(10,4)/7*pow2(cos(k),2));
+g=pow2(10,4)*pow2(k*x/pow2(a+b,2),1/6);
+y=t-z-g

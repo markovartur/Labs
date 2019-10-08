@@ -12,8 +12,8 @@ M=m'+mr*me/10
 %4
 Mrowsize=size(M,1)
 Mcolsize=size(M,2)
-[val, idx] = max(M)
-[val, idx] = min(M)
+max(max(M))
+min(min(M))
 MSum=sum(sum(M))
 MProd=prod(prod(M))
 %5

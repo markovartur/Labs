@@ -1,0 +1,12 @@
+%1 18
+x1=-pi:pi/10:pi
+f1=sin(x1).*sin(x1)
+title('f1')
+f2=(sin(x1)+pow2(x1, 2))
+f3=(cos(x1)+pow2(x1, 2))
+plot(x1',[f1' f2' f3'])
+legend('f1','f2','f3')
+%2
+%x1=-pi:pi
+%y=((1+x+pow2(x,2))/(1+pow2(x,2)), x<=0
+%maple('solve','{x+3*y>=1, x+y>0, x+3*y<=1, x-y>=2}, {y}'
